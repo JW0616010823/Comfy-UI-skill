@@ -1,4 +1,10 @@
-这是一份专为 **ComfyUI 一键部署项目** 设计的 GitHub `README.md` 模板。它包含了徽章、核心特性、多平台（本地、Docker、云端 GPU）一键部署指南、预置插件/模型清单以及常见问题排查，你可以直接复制并根据你的实际仓库名称和脚本路径进行微调。
+🚀 ComfyUI One-Click Deploy (一键部署工具包)
+零门槛、全自动、开箱即用的 ComfyUI 极速部署方案内置主流节点插件 | 自动配置 Python 环境 | 支持本地 / Docker / 云端算力平台功能特性 • 环境要求 • 一键部署 • 预置插件 • 常见问题✨ 
+核心特性⚡
+真正的一键部署：告别繁琐的依赖报错，自动完成虚拟环境创建、PyTorch 匹配与依赖安装。🧩 开箱即用的插件生态：默认集成 ComfyUI-Manager、汉化插件、图像增强及视频生成等高频自定义节点。🌐 国内网络加速优化：自动配置 GitHub 镜像源、HuggingFace 镜像 (hf-mirror) 与 Pip 清华/阿里源，大幅提升下载速度。🐳 多平台无缝支持：支持 Windows 本地批处理、Linux Shell 脚本、Docker 容器化部署，以及 AutoDL / 阿里云 PAI / RunPod 等云算力平台。💾 模型软链接支持：支持与 Stable Diffusion WebUI (A1111 / Forge) 共享模型目录，节省宝贵硬盘空间。
+💻 环境要求
+最低配置：操作系统Windows 10/11, Ubuntu 20.04+, macOS (M系列)， (GPU)NVIDIA GTX 1660 (6GB 显存)， 内存 (RAM)16 GB，硬盘空间40 GB 可用空间 (SSD)
+推荐配置：Windows 11 / Ubuntu 22.04 LTS显卡，NVIDIA RTX 3060 (12GB) / RTX 4090 (24GB)，32 GB 及以上，200 GB+ NVMe SSD
 
 ```markdown
 <div align="center">
